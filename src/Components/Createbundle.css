@@ -1,0 +1,25 @@
+.createbundle h2{
+    gap: 20px;
+background-color: rgb(219, 233, 239);
+height: 100px;
+text-align: center;
+top: 110%;
+}
+.form{
+    background-color: rgb(219, 233, 239);
+text-align: center;
+height: 400px;
+}
+.submit{
+    padding: 5px 10px;
+}
+.form label{
+    gap: 10px;
+}
+.form select{
+    gap: 10px;
+    height: 30px;
+}
+.form button{
+    gap: 10px;
+}

@@ -1,0 +1,9 @@
+.home h2 {
+    color: #bdd6df;
+    text-align: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url('/Users/deepa.natarajan/Desktop/REACT/demo/src/images/back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
