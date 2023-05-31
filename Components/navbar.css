@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #95dbf0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 75px;
+    gap: 1rem;
+}
+.nav-links li {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links li a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+  }
+  .nav-links li a span {
+    margin-left: 0.5rem;
+  }
+
+.bundle,
+.products,
+.addproduct,
+.createbundle {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.logo {
+    padding-left: 10px;
+}

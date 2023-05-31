@@ -1,0 +1,48 @@
+.createbundle h2 {
+    gap: 20px;
+    background-color: rgb(219, 233, 239);
+    height: 100px;
+    text-align: center;
+    top: 110%;
+}
+.form {
+    background-color: rgb(219, 233, 239);
+    text-align: center;
+    height: 400px;
+}
+.product1{
+    display: inline-block;
+  width: 200px; 
+  margin: 10px; 
+  text-align: center;
+}
+.product2{
+    display: inline-block;
+  width: 200px; 
+  margin: 10px; 
+  text-align: center;
+
+}
+.product1 image{
+    align-items: center;
+}
+.product1 image{
+    align-items: center;
+}
+.product1 h4{
+    height: 50px;
+    background-color:rgb(219, 233, 239) ;
+    text-align: center;
+    padding-top: 6px;
+}
+.product2 h4{
+    height: 50px;
+    background-color:rgb(219, 233, 239) ;
+    text-align: center;
+}
+.labelproduct1{
+    text-align: center;
+}
+.labelproduct2{
+    text-align: center;
+}
