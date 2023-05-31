@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import laptop from '../images/laptop.jpg'
 import jeans from '../images/jeans.jpg'
 import shoe from '../images/shoe.jpg'
@@ -25,6 +25,7 @@ const Createbundle = () => {
     })
 
     const [bundledProducts, setBundledProducts] = useState([])
+    
     const [productitems, setproductitems] = useState([
         {
             id: "1",
@@ -67,6 +68,8 @@ const Createbundle = () => {
         setBundleForm(prev => ({ ...prev, [e.target.name]: item }))
     }
 
+   
+
     return (
         <div className='createbundle'>
             <h2>Createbundle</h2>
@@ -98,24 +101,24 @@ const Createbundle = () => {
             <div>
                 {bundledProducts.map(product => (
                     <>
-                        <label>Product 1</label>
+                        <label className='labelproduct1'>Product 1</label>
 
 
-                        <div className="product" key={product.product1}>
+                        <div className="product1" key={product.product1}>
                             <img src={product.product1.image} width="200px" height="200px" alt="Product Image" />
                             <div className="product-details">
-                                <h2 className="product-name">{product.product1.name}</h2>
+                                <h3 className="product-name">{product.product1.name}</h3>
                                 <p className="product-price"> ${product.product1.price}</p>
                             </div>
                         </div>
 
-                        <label>Product 2</label>
+                        <label className='labelproduct2'>Product 2</label>
 
 
-                        <div className="product" key={product.product2}>
-                            <img src={product.product2.image} width="200px" height="200px" alt="Product Image" />
+                        <div className="product2" key={product.product2}>
+                            <img src={product.product2.image} width="200px" height="200px" alt="Product Image" className='image' />
                             <div className="product-details">
-                                <h2 className="product-name">{product.product2.name}</h2>
+                                <h3 className="product-name">{product.product2.name}</h3>
                                 <p className="product-price"> ${product.product2.price}</p>
                             </div>
                         </div>

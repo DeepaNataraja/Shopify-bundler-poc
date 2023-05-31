@@ -65,9 +65,6 @@ const Data = () => {
           console.log(val)
           return (
             <div className="product" key={key}>
-              <div className='no.of item'>
-                <p>Showing 1-10 Results</p>
-                </div>
               <img src={val.image} width="200px" height="200px" alt="Product Image" />
               <div className="product-details">
                 <h2 className="product-name">{val.name}</h2>
